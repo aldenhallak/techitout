@@ -9,20 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>One Page Wonder - Start Bootstrap Template</title>
+    <title>Code Camp</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/one-page-wonder.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href="css/main.css" rel="stylesheet">
+    
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
 
@@ -41,11 +38,11 @@
                 </button>
                 <a class="navbar-brand" href="#">Start Bootstrap</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- Nav links for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#schedule">Schedule</a>
                     </li>
                     <li>
                         <a href="#services">Services</a>
@@ -62,63 +59,176 @@
 
     <!-- Full Width Image Header -->
     <header class="header-image">
+        
         <div class="headline">
             <div class="container">
-                <h1>One Page Wonder</h1>
-                <h2>Will Knock Your Socks Off</h2>
+                <h2>Philly Kids Code Camp</h2>
+                <h3>Saturday, April 2nd, 2016</h3>
+                <h4>9am-5pm</h4>
             </div>
         </div>
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    
 
-        <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
-        <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">This First Heading
-                <span class="text-muted">Will Catch Your Eye</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <!-- First Featurette -->
+    <div class="featurette" id="schedule">
+        <div class="container">
+            <div class="row">
+                <h1>Schedule
+                    <span class="text-muted">track your code</span>
+                </h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-1 col-lg-offset-3 col-md-1 col-sm-1">
+                    <i class="fa fa-cutlery fa-2x"></i>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <p class="lead">9am</p>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-8">
+                    <p class="lead">Breakfast</p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="col-lg-1 col-lg-offset-3 col-md-1 col-sm-1">
+                    <i class="fa fa-users fa-2x"></i>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <p class="lead">9:30am</p>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-8">
+                    <p class="lead">Welcome games and getting to know each other</p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="col-lg-1 col-lg-offset-3 col-md-1 col-sm-1">
+                    <i class="fa fa-cogs fa-2x"></i>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <p class="lead">10am</p>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-8">
+                    <p class="lead">Scratch that--learning the basics</p>
+                </div>
+            </div> 
+            <div class = "row">
+                <div class="col-lg-1 col-lg-offset-3 col-md-1 col-sm-1">
+                    <img src="img/robot.png" width="60%">
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <p class="lead">11am</p>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-8">
+                    <p class="lead">Do the Robot--making robots dance</p>
+                </div>
+            </div> 
+            <div class = "row">
+                <div class="col-lg-1 col-lg-offset-3 col-md-1 col-sm-1">
+                    <img src="img/sandwich.png" width="60%">
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <p class="lead">12pm</p>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-8">
+                    <p class="lead">Lunch</p>
+                </div>
+            </div> 
+            <div class = "row">
+                <div class="col-lg-1 col-lg-offset-3 col-md-1 col-sm-1">
+                    <i class="fa fa-building fa-2x"></i>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <p class="lead">12:30pm</p>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-8">
+                    <p class="lead">Touring the Office--Visiting Start Ups</p>
+                </div>
+            </div> 
+            <div class = "row">
+                <div class="col-lg-1 col-lg-offset-3 col-md-1 col-sm-1">
+                    <i class="fa fa-paint-brush fa-2x"></i>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <p class="lead">1pm</p>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-8">
+                    <p class="lead">Collaborative Learning--Team design competition</p>
+                </div>
+            </div> 
+            <div class = "row">
+                <div class="col-lg-1 col-lg-offset-3 col-md-1 col-sm-1">
+                    <i class="fa fa-code fa-2x"></i>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <p class="lead">2pm</p>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-8">
+                    <p class="lead">Choose your own adventure: play with Lego Mindstorms, building your own website, build a video game, or program an accessory</p>
+                </div>
+            </div> 
+            <div class = "row">
+                <div class="col-lg-1 col-lg-offset-3 col-md-1 col-sm-1">
+                    <i class="fa fa-lightbulb-o fa-2x"></i>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <p class="lead">4pm</p>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-8">
+                    <p class="lead">Show off what you made</p>
+                </div>
+            </div> 
+            <div class = "row">
+                <div class="col-lg-1 col-lg-offset-3 col-md-1 col-sm-1">
+                    <i class="fa fa-hand-peace-o fa-2x"></i>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <p class="lead">5pm</p>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-8">
+                    <p class="lead">Wrap up--see you soon!</p>
+                </div>
+            </div> 
         </div>
+    </div>
 
-        <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
-        <!-- Second Featurette -->
-        <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Second Heading
-                <span class="text-muted">Is Pretty Cool Too.</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
+    <!-- Second Featurette -->
+    <div class="featurette" id="services">
+        <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+        <h2 class="featurette-heading">The Second Heading
+            <span class="text-muted">Is Pretty Cool Too.</span>
+        </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
 
-        <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
-        <!-- Third Featurette -->
-        <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Third Heading
-                <span class="text-muted">Will Seal the Deal.</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
+    <!-- Third Featurette -->
+    <div class="featurette" id="contact">
+        <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+        <h2 class="featurette-heading">The Third Heading
+            <span class="text-muted">Will Seal the Deal.</span>
+        </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
 
-        <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
-        <!-- Footer -->
-        <footer>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <p>Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
-        </footer>
-
-    </div>
-    <!-- /.container -->
+        </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

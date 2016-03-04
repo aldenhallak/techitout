@@ -1,59 +1,57 @@
 /*!
- * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * Created by Amelia Goodman.
  */
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    margin-top: 50px; /* Required padding for .navbar-fixed-top.*/
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header-image {
     display: block;
     width: 100%;
+    background-color: #4FA572;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+.header-image {
+    height:500px;
+    -webkit-transition: background-color 2.5s ease-in-out;
+    -moz-transition: background-color 2.5s ease-in-out;
+    -o-transition: background-color 2.5s ease-in-out;
+    -khtml-transition: background-color 2.5s ease-in-out;
+    transition: background-color 2.5s ease-in-out;
+}
+
 .headline {
     padding: 120px 0;
 }
 
-.headline h1 {
-    font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+.headline h2 {
+    font-size: 4em;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.headline h2 {
-    font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+#schedule {
+    padding-top: 50px;
+    background: radial-gradient(200px, #fff, #BEE6CE);
+    padding-bottom: 50px;
 }
 
 .featurette-divider {
     margin: 80px 0;
 }
 
-.featurette {
-    overflow: hidden;
-}
-
-.featurette-image.pull-left {
-    margin-right: 40px;
-}
-
-.featurette-image.pull-right {
-    margin-left: 40px;
-}
-
-.featurette-heading {
-    font-size: 50px;
-}
 
 footer {
     margin: 50px 0;
