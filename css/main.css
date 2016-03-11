@@ -4,7 +4,9 @@
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top.*/
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    background-image: url("../img/stars.jpeg");
 }
 
 .text-muted {
@@ -33,7 +35,6 @@ body {
 
 .sec-divider {
     height: 80px;
-    background-image: url("../img/stars.jpeg");
 }
 
 /*-------HEADER---------*/
@@ -67,7 +68,7 @@ body {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Monofett', cursive;
 }
 
 
@@ -134,12 +135,6 @@ body {
     color: white;
 }
 
-/*-------REGISTER---------*/
-
-#register {
-    background-image: url("../img/stars.jpeg");
-}
-
 /*-------FAQ---------*/
 
 #FAQ {
@@ -161,10 +156,12 @@ body {
 
 #mentors img {
     transition: all .35s ease-in-out;
+    max-height: 200px;
+    padding-left: 80px;
 }
+
 #mentors img:hover {
-    transform: scale(1.5);
-    background-color: #B58DB6;
+    transform: scale(1.1);
 }
 
 /*-------LOCATION---------*/
