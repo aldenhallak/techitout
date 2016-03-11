@@ -60,7 +60,7 @@ body {
 }
 
 .headline h2 {
-    font-size: 4em;
+    font-size: 6em;
     color: white;
     text-shadow:
     -1px -1px 0 #000,
@@ -85,6 +85,10 @@ body {
     background: radial-gradient(200px, #fff, #A393BF);
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+#quoted {
+    color: #0353A4;
 }
 
 /*-------SCHEDULE---------*/
@@ -130,6 +134,12 @@ body {
     color: white;
 }
 
+/*-------REGISTER---------*/
+
+#register {
+    background-image: url("../img/stars.jpeg");
+}
+
 /*-------FAQ---------*/
 
 #FAQ {
@@ -172,5 +182,12 @@ body {
 /*-------FOOTER---------*/
 
 footer {
-    margin: 50px 0;
+    /*margin: 50px 0;*/
+    background-image: url("../img/stars.jpeg");
+    padding: 50px;
 }
+
+footer .shadow {
+    padding: 40px;
+}
+
