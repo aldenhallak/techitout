@@ -19,7 +19,8 @@ jQuery(function ($) {
     }
     $(window).load(function () {
         // changeColor(".header-image", ["#F2AD9A", "#9A8BB0", "#6174A8", "#2F4B54", "#1F452D", "#4FA572"], 2000);
-        changeColor(".header-image", ["#BEE6CE", "#BCFFDB", "#8DFFCD", "#68D89B", "#4F9D69"], 3000);
+        // changeColor(".header-image", ["#BEE6CE", "#BCFFDB", "#8DFFCD", "#68D89B", "#4F9D69"], 3000);
+        changeColor(".header-image", ["#B9D6F2", "#006DAA", "#A393BF"], 3500);
     });
 });
 

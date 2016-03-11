@@ -10,18 +10,18 @@ body {
 .header-image {
     display: block;
     width: 100%;
-    background-color: #4FA572;
+    background-color: #B9D6F2;
     text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     height:500px;
-    -webkit-transition: background-color 2.5s ease-in-out;
-    -moz-transition: background-color 2.5s ease-in-out;
-    -o-transition: background-color 2.5s ease-in-out;
-    -khtml-transition: background-color 2.5s ease-in-out;
-    transition: background-color 2.5s ease-in-out;
+    -webkit-transition: background-color 3.5s ease-in-out;
+    -moz-transition: background-color 3.5s ease-in-out;
+    -o-transition: background-color 3.5s ease-in-out;
+    -khtml-transition: background-color 3.5s ease-in-out;
+    transition: background-color 3.5s ease-in-out;
 }
 
 .headline {
@@ -39,18 +39,31 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.text-muted {
+    color: white;
+}
+
 .hideme {
     opacity: 0;
 }
 
+#about .shadow {
+    padding: 40px;
+}
 
 #about #sponsored {
     margin-top: 50px;
 }
 
+#about {
+    background: radial-gradient(200px, #fff, #A393BF);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 #schedule {
     padding-top: 50px;
-    background: radial-gradient(ellipse at center, white 0%, #188f43 75%, #188f43 100%);
+    background: radial-gradient(ellipse at center, white 0%, #0353A4 75%, #0353A4 100%);
     padding-bottom: 50px;
 }
 
@@ -60,6 +73,7 @@ body {
 
 .shadow {
     box-shadow: -10px 16px 28px 0 rgba(0, 0, 0, 0.5), 10px 25px 55px 0 rgba(0, 0, 0, 0.4);
+    background-color: white;
 }
 
 @media(max-width:480px) {
@@ -89,12 +103,28 @@ body {
 
 #sched-list-el:hover {
     transform: scale(1.1);
-    background-color: #4F9D69;
+    background-color: #B58DB6;
     color: white;
 }
 
 .sec-divider {
-    margin: 80px 0;
+    height: 80px;
+    background-image: url("../img/stars.jpeg");
+}
+
+#FAQ {
+    background: radial-gradient(ellipse at center, white 0%, #79c99E 75%, #79c99E 100%);
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+#FAQ .shadow {
+    padding: 30px;
+}
+
+#mentors {
+    padding-top: 100px;
+    background: radial-gradient(ellipse at center, white 0%, #006DAA 75%, #006DAA 100%);
 }
 
 #mentors img {
@@ -102,14 +132,19 @@ body {
 }
 #mentors img:hover {
     transform: scale(1.5);
-    background-color: #7e0050;
+    background-color: #B58DB6;
 }
 
-#about {
-    background: radial-gradient(200px, #fff, #68D89B);
-    padding-top: 50px;
-    padding-bottom: 50px;
+#location {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: radial-gradient(ellipse at center, white 0%, #2e294e 75%, #2e294e 100%);
 }
+
+#location .shadow {
+    padding: 40px;
+}
+
 
 footer {
     margin: 50px 0;
