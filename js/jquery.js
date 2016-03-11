@@ -79,7 +79,6 @@ $(document).ready(function() {
     //trigger our scroll event on initial load
   $(window).trigger('scroll');
 
-<<<<<<< HEAD
 });
 
 // Scrolls to the selected menu item on the page
@@ -97,6 +96,4 @@ $(function() {
             }
         }
     });
-=======
->>>>>>> 123038549a67754208cc517c81c4537bb62f15cf
 });
