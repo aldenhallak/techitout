@@ -9,6 +9,10 @@ body {
     background-image: url("../img/stars.jpeg");
 }
 
+.navbar-fixed-top {
+    background-color: white;
+}
+
 .text-muted {
     color: white;
 }
