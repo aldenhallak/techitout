@@ -141,6 +141,18 @@ body {
     color: white;
 }
 
+/*-------REGISTER--------*/
+#register h2 {
+    color: white;
+}
+#register a {
+    color: white;
+    text-decoration: underline;
+}
+#register a:hover {
+    color: green;
+}
+
 /*-------FAQ---------*/
 
 #FAQ {
