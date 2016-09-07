@@ -146,16 +146,35 @@ body {
     color: white;
 }
 
+
+/*-------DEEPER---------*/
+
+#deeper .shadow {
+    padding: 40px;
+    width:80%;
+    margin-left:10%;
+}
+
+#deeper {
+    background: radial-gradient(200px, #fff, #1AE0E3);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
 /*-------REGISTER--------*/
 #register h2 {
     color: white;
 }
 #register a {
     color: white;
-    text-decoration: underline;
 }
 #register a:hover {
     color:  #B58DB6;
+}
+#register_btn {
+    font-size: 2.5em;
+    text-decoration: none;
 }
 
 /*-------FAQ---------*/
