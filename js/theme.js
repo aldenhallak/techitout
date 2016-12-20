@@ -2,6 +2,8 @@ $(document).ready(function() {
   // dropdown in menu
   $(".dropdown-button").dropdown(
     {hover: true});
+  // responsive menu
+  $(".button-collapse").sideNav();
 
   // show hideme element when scroll over
   /* Every time the window is scrolled ... */
