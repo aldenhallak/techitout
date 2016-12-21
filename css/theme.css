@@ -74,9 +74,14 @@ p {
 .nav-wrapper li:hover {
     background-color: #9F8FB8;
 }
-
 #students-dropdown a{
     color: black;
+}
+#sidenav-overlay {
+    z-index: 97;
+}
+#mobile-demo{
+    height: 250px !important;
 }
 
 
