@@ -124,6 +124,10 @@ p {
 #bio a {
     color: #DFECFF;
 }
+.image {
+    border-radius:100%;
+    height: 400px;
+}
 
 @media only screen
   and (max-device-width: 736px) {
